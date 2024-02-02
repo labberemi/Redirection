@@ -1,0 +1,5 @@
+Si avec https, dans la config. https ajouter:
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/ [NC]
+RewriteRule ^(.*)$ http://google.ca/ [R=301,L]
